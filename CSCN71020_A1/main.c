@@ -21,8 +21,13 @@ void main() {
 	{
 	case 1:
 		add();
+		break;
 	case 2: 
 		subtract();
+		break;
+	default:
+		printf("Thank you, Please try again!\n");
+		break;
 	}
 
 }
